@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>menu kiks</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+	<div class="loader">
+		<div class="loader__top">
+			<div class="loader__contenedor">
+				<img src="images/logo_vector.svg" alt="" class="loader__imagen">
+			</div>
+		</div>
+		<div class="loader__bottom">
+			<a href="#" class="loader__btn">Abrir Menú</a>
+		</div>
+	</div>
+
+	<div class="modal">
+		<div class="modal__elementos">
+			<div class="modal__c_icono">
+				<i class="fa-solid fa-xmark modal__icono"></i>
+			</div>
+			<img src="images/reloj.svg" class="modal__reloj">
+			<h3 class="modal__subtitulo">¡Oops!</h3>
+			<p class="modal__p">Servicio disponible unicamente los viernes, sábados y domingos</p>
+		</div>
+	</div>
+
+	<a id="ancla" class="nav__ancla"></a>
+	<nav class="nav">
+		<div class="maxWidth">
+			<div class="nav__elementos">
+				<img src="images/icono_hamburguesa-negro.svg" class="nav__logo">
+				<img src="images/nombre-negocio.svg" class="nav__nombre">
+				<div class="nav__menu">
+					<span class="nav__span"></span>
+					<span class="nav__span"></span>
+					<span class="nav__span"></span>
+				</div>
+				<ul class="nav__ul">
+					<li class="nav__li"><a href="#" class="nav__a">Menú</a></li>
+					<li class="nav__li"><a href="#" class="nav__a">Lo más pedido</a></li>
+					<li class="nav__li"><a href="#" class="nav__a">Comentarios</a></li>
+					<li class="nav__li"><a href="#" class="nav__a">Ubicación</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main class="hero">
+		<i class="fa-solid fa-burger hero__icono"></i>
+		<p class="hero__subtitulo">¿Listo para deleitar tu paladar?</p>
+		<i class="fa-solid fa-caret-down hero__caret"></i>
+	</main>
+
+	<header class="preferencias">
+		<div class="maxWidth">
+			<h2 class="preferencias__subtitulo">Lo más pedido</h2>
+			<marquee class="preferencias__contenedor" scrollamount="10">
+				<div class="preferencias__cards">
+
+					<div class="preferencias__card">
+						<div class="preferencias__left">
+							<img src="https://media.carasycaretas.com.uy/p/3aa63de2d360093936b5293b241d87fd/adjuntos/328/imagenes/000/037/0000037913/1200x0/smart/hamburguesa-foto-ilustrativa.jpg" alt="" class="preferencias__imagen">
+						</div>
+						<div class="preferencias__right">
+							<h3 class="preferencias__nombre">H. clásica</h3>
+							<p class="preferencias__precio">$55.00</p>
+						</div>
+					</div>
+
+					<div class="preferencias__card">
+						<div class="preferencias__left">
+							<img src="https://hungryhealthyhappy.com/wp-content/uploads/2022/11/baked-jalapeno-poppers-featured.jpg" alt="" class="preferencias__imagen">
+						</div>
+						<div class="preferencias__right">
+							<h3 class="preferencias__nombre">J. Poppers</h3>
+							<p class="preferencias__precio">$45.00</p>
+						</div>
+					</div>
+
+					<div class="preferencias__card">
+						<div class="preferencias__left">
+							<img src="https://www.gastrolabweb.com/u/fotografias/m/2021/8/13/f850x638-17561_95050_5640.jpg" alt="" class="preferencias__imagen">
+						</div>
+						<div class="preferencias__right">
+							<h3 class="preferencias__nombre">Papas a la francesa</h3>
+							<p class="preferencias__precio">$35.00</p>
+						</div>
+					</div>
+
+				</div>
+			</marquee>
+		</div>
+	</header>
+	
+	<section class="contenedor">
+		<div class="maxWidth">
+			<div class="contenedor__header">
+				<h2 class="contenedor__subtitulo">Menú</h2>
+				<select name="selecccion" class="contenedor__seleccion">
+					<option value="Todos" class="contenedor__option" selected>Todos</option>
+					<option value="Hamburguesas" class="contenedor__option">Hamburguesas</option>
+					<option value="Snacks" class="contenedor__option">Snacks</option>
+					<option value="Bebidas" class="contenedor__option">Bebidas</option>
+				</select>
+			</div>
+			<!-- CARDS -->
+			<div class="cards">
+				<!-- CARD -->
+			</div>
+		</div>
+	</section>
+
+	<div class="volver">
+		<a href="#ancla" class="volver__a">
+			<i class="fa-solid fa-angles-up volver__icono"></i>
+		</a>
+	</div>
+
+	<div class="redes">
+		<a href="https://www.facebook.com/profile.php?id=100088169760049" target="_blank" class="redes__red">
+			<i class="fa-brands fa-facebook redes__icono" ></i>
+		</a>
+		<a href="#" class="redes__red">
+			<i class="fa-brands fa-whatsapp redes__icono"></i>
+		</a>
+		<a href="#" class="redes__red">
+			<i class="fa-brands fa-instagram redes__icono"></i>
+		</a>
+	</div>
+	
+	<section class="section-slider">
+		<div class="maxWidth">
+			<h2 class="slider__subtitulo">Comentarios</h2>
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<div class="comentarios">
+							<p class="swiper--comentario">"La hamburguesa estaba deliciosa, volveré sin duda."</p>
+							<p class="swiper--nombre">- Vicente Arteaga -</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="comentarios">
+							<p class="swiper--comentario">"Increíble sabor, la mejor hamburguesa que he probado."</p>
+							<p class="swiper--nombre">- Magdalena Santiago -</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="comentarios">
+							<p class="swiper--comentario">"Servicio rápido y hamburguesa jugosa, ¡perfecto!"</p>
+							<p class="swiper--nombre">- Nelly Sevilla -</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="comentarios">
+							<p class="swiper--comentario">"Calidad excepcional, ingredientes frescos, sabor insuperable."</p>
+							<p class="swiper--nombre">- Luis Alva -</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="comentarios">
+							<p class="swiper--comentario">"Una experiencia única, la hamburguesa superó mis expectativas." ​</p>
+							<p class="swiper--nombre">- Laura Modesto -</p>
+						</div>
+					</div>
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+				<!-- If we need navigation buttons -->
+				<!-- <div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div> -->
+				<!-- If we need scrollbar -->
+				<!-- <div class="swiper-scrollbar"></div> -->
+			</div>
+		</div>
+	</section>
+
+	<footer class="codincy">
+		<div class="maxWidth">
+			<div class="codincy__elementos">
+				<img src="images/condincy_logo.svg" class="codincy__logo">
+				<hr>
+				<p class="codincy__texto">Diseño y desarrollo web</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/676f8336d2.js" crossorigin="anonymous"></script>
+	<script src="script-cards.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
